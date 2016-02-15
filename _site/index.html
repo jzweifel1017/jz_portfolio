@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jessica Zweifel Portfolio</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="https://d2i2zd9axwkr7h.cloudfront.net/company/js/slickNav/slicknav.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+ </head>
+
+  <body>
+
+    <div class="main-nav">
+  <div class="main-nav-inner">
+  <div class="row">
+  <div class="columns small-12 medium-12 large-12">
+    <ul>
+      <li><a href="#section-two">ABOUT</a></li>
+      <li><a href="#section-three">WORK</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+
+    </ul>
+</div>
+</div>
+   
+  </div>
+</div>
+
+
+
+
+        <div id="section-one" class="section">
+<div class="row">
+<div class="columns small-12 medium-12 large-12">
+<a href="#section-two"><img src="assets/jz-logo.png"/></a>
+<h1 id="body-h1" class="white">Jessica Zweifel</h1>
+<h2 id="body-h2" class="white border align-center">Web Developer</h2>
+</div>
+</div>
+</div>
+
+<div id="section-two" class="section">
+<div class="row">
+<div class="columns small-12 medium-6 large-6">
+<img src="assets/my-portfolio.png"/>
+</div>
+
+<div class="columns small-12 medium-6 large-6">
+<h2 id="body-h2" class="white">About</h2>
+<p id="body-p" class="white"> Born and raised in the west suburbs of Chicago, IL. Traveled to Tempe, AZ to earn bachelor's in Design Management and minor in Informatics at Arizona State University. Currently a growing UX/UI Web Designer + Developer.  </p>
+
+<img class="social" src="assets/linkedin.png"/><a href="https://www.linkedin.com/in/jessicazweifel" target="_blank"><h3 id="body-h3" class="white">LinkedIn</h3></a><br/>
+<img class="social" src="assets/pdf.png"/><a href="http://localhost:4000/assets/JessicaZweifel_Resume.pdf" target="_blank"><h3 id="body-h3" class="white">Resume</h3></a><br/>
+<img class="social" src="assets/dribble.png"/><a href="https://dribbble.com/jzweifel1017" target="_blank"><h3 id="body-h3" class="white">Dribble</h3></a>
+</div>
+</div>
+</div>
+
+
+<div id="section-three">
+
+<div class="row">
+
+<a id="work1" class="columns small-12 medium-3 large-3"  href="http://careers.msdaz.org/" target="_blank"></a>
+
+<a id="work2" class="columns small-12 medium-3 large-3"  href="http://jobs.rrcc.edu/" target="_blank"></a>
+
+<a id="work3" class="columns small-12 medium-3 large-3"  href="http://careers.dvusd.org/" target="_blank"></a>
+<!-- </div>
+<div class="row"> -->
+<a id="work4" class="columns small-12 medium-3 large-3"  href="http://careers.littletongov.org/" target="_blank"></a>
+
+<a id="work5" class="columns small-12 medium-3 large-3"  href="http://jobs.agu.org/" target="_blank"></a>
+
+<a id="work6" class="columns small-12 medium-3 large-3"  href="http://jobs.cleanwaterteam.com/" target="_blank"></a>
+
+<div id="work7" class="columns small-12 medium-3 large-3 mid"><div id="overlay"><h4 id="body-h4">Coming Soon<br/>East West</br/>Destination Hospitality</h4></div></div>
+
+<div id="work8" class="columns small-12 medium-3 large-3 mid"><div id="overlay"><h4 id="body-h4">Coming Soon<br/>Kootenai Health</h4></div></div>
+
+
+</div>
+</div>
+
+
+    
+    
+<div id="contact" class="main-foot">
+<div class="main-foot-inner">
+  <div class="row"> 
+    <div class="columns small-12 medium-6 large-6">
+    <h2 id="body-h2" class="gray">Contact</h2>
+    <img class="social" src="assets/mail.png"/><a href="mailto:jzweifel1017@gmail.com">jzweifel1017@gmail.com</a><br/>
+    <img class="social" src="assets/phone.png"/><h3 id="body-h3" class="gray">(312)659-9135</h3>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!--  SLICK NAV -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/foundation.min.js"></script>
+
+<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+
+ <script>
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+ </script>
+
+
+
+  </body>
+
+</html>

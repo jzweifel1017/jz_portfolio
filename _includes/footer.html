@@ -1,0 +1,36 @@
+
+<div id="contact" class="main-foot">
+<div class="main-foot-inner">
+  <div class="row"> 
+    <div class="columns small-12 medium-6 large-6">
+    <h2 id="body-h2" class="gray">Contact</h2>
+    <img class="social" src="assets/mail.png"/><a href="mailto:jzweifel1017@gmail.com">jzweifel1017@gmail.com</a><br/>
+    <img class="social" src="assets/phone.png"/><h3 id="body-h3" class="gray">(312)659-9135</h3>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!--  SLICK NAV -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/foundation.min.js"></script>
+
+<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+
+ <script>
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+ </script>
+
