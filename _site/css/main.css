@@ -4281,6 +4281,7 @@ SECTIONS
 #section-three .row {
   max-width: 1300px; }
 
+
 #work1,
 #work2,
 #work3,
@@ -4288,7 +4289,14 @@ SECTIONS
 #work5,
 #work6,
 #work7,
-#work8 {
+#work8,
+#work9,
+#work10,
+#work11,
+#work12,
+#work13,
+#work14,
+#work15{
   height: 300px;
   width: 300px;
   margin: 10px 10px 10px 10px;
@@ -4298,44 +4306,99 @@ SECTIONS
   -webkit-transition: all .2s ease;
   -o-transition: all .2s ease;
   transition: all .2s ease;
-  border: 1px solid #eee; }
+  border: 1px solid #eee;
+}
 
 #work1 {
-  background-image: url("../assets/work1.png"); }
+  background-image: url('../assets/work1.png');
+}
 
 #work2 {
-  background-image: url("../assets/work2.png"); }
+  background-image: url('../assets/work2.png');
+}
 
 #work3 {
-  background-image: url("../assets/work3.png"); }
+  background-image: url('../assets/work3.png');
+}
 
 #work4 {
-  background-image: url("../assets//work4.png"); }
+  background-image: url('../assets//work4.png');
+}
 
 #work5 {
-  background-image: url("../assets/work5.png");
-  margin: 10px 10px 10px 10px; }
+  background-image: url('../assets/work5.png');
+  margin: 10px 10px 10px 10px;
+}
 
 #work6 {
-  background-image: url("../assets/work6.png"); }
+  background-image: url('../assets/work6.png');
+  // margin: 10px 10px 50px 10px;
+}
 
 #work1:hover,
 #work2:hover,
 #work3:hover,
 #work4:hover,
 #work5:hover,
-#work6:hover {
+#work6:hover,
+#work8:hover,
+#work9:hover,
+#work10:hover,
+#work11:hover,
+#work12:hover,{
   -webkit-filter: grayscale(0);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+}
 
 #work7 {
-  background-image: url("../assets/work7.png"); }
+  background-image: url('../assets/work7.png');
+  // margin: 10px 10px 50px 10px;
+}
 
 #work8 {
-  background-image: url("../assets/work8.png"); }
+  background-image: url('../assets/work8.png');
+  // margin: 10px 10px 50px 10px;
+}
+
+#work9 {
+  background-image: url('../assets/taylordesign.png');
+  margin: 10px 10px 50px 10px;
+}
+
+#work10 {
+  background-image: url('../assets/asd20.png');
+  // margin: 10px 10px 50px 10px;
+}
+
+#work11 {
+  background-image: url('../assets/sierraview.png');
+  // margin: 10px 10px 50px 10px;
+}
+
+#work12 {
+  background-image: url('../assets/chomp.png');
+  // margin: 10px 10px 50px 10px;
+}
+/*
+
+#work13 {
+  background-image: url('../assets/albion.png');
+   margin: 10px 10px 50px 10px;
+}
+
+#work14 {
+  background-image: url('../assets/lazboy.png');
+  // margin: 10px 10px 50px 10px;
+}
+
+#work15 {
+  background-image: url('../assets/siouxcenter.png');
+  // margin: 10px 10px 50px 10px;
+}
+*/
 
 #overlay {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, .8);
   background-size: cover;
   opacity: 0;
   height: 300px;
@@ -4345,17 +4408,26 @@ SECTIONS
   -webkit-transition: all .2s ease;
   -o-transition: all .2s ease;
   transition: all .2s ease;
-  color: #F25F5C; }
+  color: $brand-color;
+}
 
 #work7:hover #overlay,
-#work8:hover #overlay {
+#work13:hover #overlay,
+#work14:hover #overlay,
+#work15:hover #overlay{
   opacity: 1;
-  -webkit-filter: grayscale(1); }
+  -webkit-filter: grayscale(1);
+}
 
 #work7:hover h2,
-#work8:hover h2 {
-  color: #F25F5C;
-  display: block; }
+#work13:hover h2,
+#work14:hover h2,
+#work15:hover h2 {
+  color: $brand-color;
+  display: block;
+}
+
+
 
 /***************************************************************
 TEXT & BUTTONS
