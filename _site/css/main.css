@@ -1,5 +1,27 @@
 @charset "UTF-8";
 /**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #FEB95F;
+  -webkit-text-size-adjust: 100%; }
+
+/**
  * Foundation for Sites by ZURB
  * Version 6.1.1
  * foundation.zurb.com
@@ -4323,7 +4345,8 @@ SECTIONS
 #work9:hover,
 #work10:hover,
 #work11:hover,
-#work12:hover,{
+#work12:hover,
+#work15:hover{
   -webkit-filter: grayscale(0);
   box-shadow: 0 0 30px rgba(0, 0, 0, .2);
 }
@@ -4357,23 +4380,11 @@ SECTIONS
   background-image: url('../assets/chomp.png');
   // margin: 10px 10px 50px 10px;
 }
-/*
-
-#work13 {
-  background-image: url('../assets/albion.png');
-   margin: 10px 10px 50px 10px;
-}
-
-#work14 {
-  background-image: url('../assets/lazboy.png');
-  // margin: 10px 10px 50px 10px;
-}
 
 #work15 {
   background-image: url('../assets/siouxcenter.png');
   // margin: 10px 10px 50px 10px;
 }
-*/
 
 #overlay {
   background: rgba(0, 0, 0, .8);
@@ -4391,16 +4402,14 @@ SECTIONS
 
 #work7:hover #overlay,
 #work13:hover #overlay,
-#work14:hover #overlay,
-#work15:hover #overlay{
+#work14:hover #overlay{
   opacity: 1;
   -webkit-filter: grayscale(1);
 }
 
 #work7:hover h2,
 #work13:hover h2,
-#work14:hover h2,
-#work15:hover h2 {
+#work14:hover h2 {
   color: $brand-color;
   display: block;
 }
