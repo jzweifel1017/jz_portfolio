@@ -4346,7 +4346,7 @@ SECTIONS
 #work10:hover,
 #work11:hover,
 #work12:hover,
-#work15:hover{
+#work15:hover {
   -webkit-filter: grayscale(0);
   box-shadow: 0 0 30px rgba(0, 0, 0, .2);
 }
@@ -4381,10 +4381,22 @@ SECTIONS
   // margin: 10px 10px 50px 10px;
 }
 
+
+#work13 {
+  background-image: url('../assets/albion.png');
+   margin: 10px 10px 50px 10px;
+}
+
+#work14 {
+  background-image: url('../assets/lazboy.png');
+  // margin: 10px 10px 50px 10px;
+}
+
 #work15 {
   background-image: url('../assets/siouxcenter.png');
   // margin: 10px 10px 50px 10px;
 }
+
 
 #overlay {
   background: rgba(0, 0, 0, .8);
