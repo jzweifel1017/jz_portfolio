@@ -4312,40 +4312,44 @@ SECTIONS
 
 #work1 {
   background-image: url('../assets/work1.png');
+  margin: 10px 10px 10px 10px; 
 }
 
 #work2 {
   background-image: url('../assets/work2.png');
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 #work3 {
   background-image: url('../assets/work3.png');
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 #work4 {
   background-image: url('../assets//work4.png');
+/*   margin: 10px 10px 50px 10px;*/
 }
 
 
 
 #work5 {
   background-image: url('../assets/work5.png');
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 50px 10px;
 }
 
 #work6 {
   background-image: url('../assets/work6.png');
-  // margin: 10px 10px 50px 10px;
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 #work7 {
   background-image: url('../assets/eastwest.png');
-  // margin: 10px 10px 50px 10px;
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 #work8 {
   background-image: url('../assets/work8.png');
-  // margin: 10px 10px 50px 10px;
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 
@@ -4357,17 +4361,17 @@ SECTIONS
 
 #work10 {
   background-image: url('../assets/asd20.png');
-  // margin: 10px 10px 50px 10px;
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 #work11 {
   background-image: url('../assets/sierraview.png');
-  // margin: 10px 10px 50px 10px;
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 #work12 {
   background-image: url('../assets/chomp.png');
-  // margin: 10px 10px 50px 10px;
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 
@@ -4375,22 +4379,22 @@ SECTIONS
 
 #work13 {
   background-image: url('../assets/mollymaid.png');
-   margin: 10px 10px 50px 10px;
+/*   margin: 10px 10px 50px 10px;*/
 }
 
 #work14 {
   background-image: url('../assets/lazboy.png');
-  // margin: 10px 10px 50px 10px;
+/*  // margin: 10px 10px 50px 10px;*/
 }
 
 #work15 {
   background-image: url('../assets/siouxcenter.png');
-  // margin: 10px 10px 50px 10px;
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 #work16 {
   background-image: url('../assets/valleyschild.png');
-  // margin: 10px 10px 50px 10px;
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 #work1:hover,
@@ -4425,7 +4429,7 @@ SECTIONS
   -webkit-transition: all .2s ease;
   -o-transition: all .2s ease;
   transition: all .2s ease;
-  color: $brand-color;
+  color: #494949;
 }
 
 
