@@ -4312,19 +4312,23 @@ SECTIONS
 
 #work1 {
   background-image: url('../assets/work1.png');
+  margin: 10px 10px 10px 10px; 
 }
 
 #work2 {
   background-image: url('../assets/work2.png');
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 #work3 {
   background-image: url('../assets/work3.png');
+/*  margin: 10px 10px 50px 10px;*/
 }
 
 #work4 {
   background-image: url('../assets//work4.png');
   margin: 10px 10px 50px 10px;
+
 }
 
 
@@ -4336,7 +4340,6 @@ SECTIONS
 
 #work6 {
   background-image: url('../assets/work6.png');
-
 }
 
 #work7 {
@@ -4346,7 +4349,6 @@ SECTIONS
 
 #work8 {
   background-image: url('../assets/work8.png');
-
 }
 
 
@@ -4369,6 +4371,7 @@ SECTIONS
 #work12 {
   background-image: url('../assets/chomp.png');
   margin: 10px 10px 50px 10px;
+
 }
 
 
@@ -4376,22 +4379,38 @@ SECTIONS
 
 #work13 {
   background-image: url('../assets/mollymaid.png');
+<<<<<<< HEAD
 
+=======
+/*   margin: 10px 10px 50px 10px;*/
+>>>>>>> gh-pages
 }
 
 #work14 {
   background-image: url('../assets/lazboy.png');
+<<<<<<< HEAD
 
+=======
+/*  // margin: 10px 10px 50px 10px;*/
+>>>>>>> gh-pages
 }
 
 #work15 {
   background-image: url('../assets/siouxcenter.png');
+<<<<<<< HEAD
 
+=======
+/*  margin: 10px 10px 50px 10px;*/
+>>>>>>> gh-pages
 }
 
 #work16 {
   background-image: url('../assets/valleyschild.png');
+<<<<<<< HEAD
 ]
+=======
+/*  margin: 10px 10px 50px 10px;*/
+>>>>>>> gh-pages
 }
 
 #work1:hover,
@@ -4426,7 +4445,7 @@ SECTIONS
   -webkit-transition: all .2s ease;
   -o-transition: all .2s ease;
   transition: all .2s ease;
-  color: $brand-color;
+  color: #494949;
 }
 
 
