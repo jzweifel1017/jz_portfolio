@@ -4327,7 +4327,11 @@ SECTIONS
 
 #work4 {
   background-image: url('../assets//work4.png');
+<<<<<<< HEAD
 /*   margin: 10px 10px 50px 10px;*/
+=======
+  margin: 10px 10px 50px 10px;
+>>>>>>> master
 }
 
 
@@ -4339,39 +4343,63 @@ SECTIONS
 
 #work6 {
   background-image: url('../assets/work6.png');
+<<<<<<< HEAD
 /*  margin: 10px 10px 50px 10px;*/
+=======
+
+>>>>>>> master
 }
 
 #work7 {
   background-image: url('../assets/eastwest.png');
+<<<<<<< HEAD
 /*  margin: 10px 10px 50px 10px;*/
+=======
+  margin: 10px 10px 50px 10px;
+>>>>>>> master
 }
 
 #work8 {
   background-image: url('../assets/work8.png');
+<<<<<<< HEAD
 /*  margin: 10px 10px 50px 10px;*/
+=======
+
+>>>>>>> master
 }
 
 
 
 #work9 {
   background-image: url('../assets/taylordesign.png');
-  margin: 10px 10px 50px 10px;
+  
 }
 
 #work10 {
   background-image: url('../assets/asd20.png');
+<<<<<<< HEAD
 /*  margin: 10px 10px 50px 10px;*/
+=======
+
+>>>>>>> master
 }
 
 #work11 {
   background-image: url('../assets/sierraview.png');
+<<<<<<< HEAD
 /*  margin: 10px 10px 50px 10px;*/
+=======
+
+>>>>>>> master
 }
 
 #work12 {
   background-image: url('../assets/chomp.png');
+<<<<<<< HEAD
 /*  margin: 10px 10px 50px 10px;*/
+=======
+  margin: 10px 10px 50px 10px;
+>>>>>>> master
 }
 
 
