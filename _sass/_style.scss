@@ -254,6 +254,10 @@ a h3#body-h3:hover {
   color: #F25F5C;
 }
 
+a:hover, a:focus {
+    color: #F25F5C;
+}
+
 #body-p,
 ul li {
   font-family: $base-font-family;
